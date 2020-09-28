@@ -1,39 +1,36 @@
 {
     "compilerOptions": {
-        "target": "es5",
-        "module": "commonjs",
-        "declaration": true,
-        "removeComments": true,
-        "noLib": false,
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "lib": [
-            "es6",
-            "dom"
-        ],
-        "baseUrl": ".",
-        "paths": {
-            "*": [
-                "./node_modules/@nativescript/core/*",
-                "./node_modules/*"
-            ]
-        },
-        "sourceMap": true,
-        "pretty": true,
-        "allowUnreachableCode": false,
-        "allowUnusedLabels": false,
-        "noEmitHelpers": true,
-        "noEmitOnError": false,
-        "noImplicitAny": false,
-        "noImplicitReturns": true,
-        "noImplicitUseStrict": false,
-        "noFallthroughCasesInSwitch": true,
+      "module": "ESNext",
+      "target": "es2015",
+      "moduleResolution": "node",
+      "noLib": false,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "lib": [
+        "es2018", "es2017", "dom", "es6"
+      ],
+      "baseUrl": ".",
+      "paths": {
+          "*": [
+              "./node_modules/@nativescript/core/*",
+              "./node_modules/*"
+          ]
+      },
+      "sourceMap": true,
+      "pretty": true,
+      "allowUnreachableCode": false,
+      "allowUnusedLabels": false,
+      "noEmitHelpers": true,
+      "noEmitOnError": true,
+      "skipLibCheck": true,
+      "allowSyntheticDefaultImports": true,
+      "resolveJsonModule": true,
         "typeRoots": [
-            "./node_modules/@types",
-            "./node_modules"
-        ],
-        "types": [
-        ]
+          "./node_modules/@types",
+          "./node_modules"
+      ],
+      "types": [
+      ]
     },
     "exclude": [
         "demo",

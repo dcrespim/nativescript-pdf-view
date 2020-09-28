@@ -1,4 +1,5 @@
-/// <reference path="./node_modules/tns-platform-declarations/android.d.ts" />
+/// <reference path="./node_modules/@nativescript/core/global-types.d.ts" />
+/// <reference path="./node_modules/@nativescript/types-android/index.d.ts" />
 
 declare module com {
   export module github {

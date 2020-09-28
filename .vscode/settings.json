@@ -1,10 +1,17 @@
 {
   "files.exclude": {
-    "**/*.js": {
-      "when": "$(basename).ts"
+    "schema": true
+  },
+  "NativescriptExtend.fileAssociations": [
+    {
+      "systemId": "/Users/davidcrespi/code/nativescript-pdf-view/schema/tns.xsd",
+      "pattern": "**/**/*.xml"
     },
-    "**/*.js.map": {
-      "when": "$(basename)"
+    {
+      "systemId": "http://www.w3.org/2001/XMLSchema.xsd",
+      "pattern": "/Users/davidcrespi/code/nativescript-pdf-view/schema/tns.xsd"
     }
-  }
+  ],
+  "NativescriptExtend.format.enabled": true,
+  "NativescriptExtend.validation.enabled": true
 }

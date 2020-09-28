@@ -1,4 +1,6 @@
-import { EventData, Page } from '@nativescript/core/ui/page';
+import { Page } from '@nativescript/core/ui/page';
+
+import { EventData } from '@nativescript/core/data/observable';
 
 import { MainViewModel } from './main-view-model';
 
